@@ -6,7 +6,7 @@
 ###安装python环境  
 1.下载Python for windows
 废话不说，直接上网址：https://www.python.org/ftp/python/3.5.1/python-3.5.1.exe  
-2.安装Python for windows（不得不说Python 在 Windows平台下的安装比傻瓜式还傻瓜式，直接点击Install Now，Python就直接被装到你的C盘了。我当时心想：咱作为IT人员，怎么能局限于傻瓜式的安装呢？不，咱要有自己的选择。然后，毅然决然的点击了“Install Now”这个按钮。。。然后，Python就真的被装在C盘了（我可怜的C盘空间啊）。。）  
+2.安装Python for windows（不得不说Python 在 Windows平台下的安装比傻瓜式还傻瓜式，直接点击Install Now，Python就直接被装到你的C盘了。）  
 
 ---------  
 ##安装scrapy  
@@ -27,9 +27,8 @@ Twisted‑17.1.0‑cp36‑cp36m‑win_amd64.whl
 根据你的Python的版本选择合适的包，名称中间的cp36是python3.6的意思，amd64是python的位数   
 下载完成后使用cmd打开windows的命令行窗口，进入whl包所在的文件夹执行如下命令
 
-```pip install [whl]```
-例如：
-`pip install Twisted-17.1.0-cp36-cp36m-win_amd64.whl`  
+`pip install [whl]`
+例如：`pip install Twisted-17.1.0-cp36-cp36m-win_amd64.whl`  
 Scrapy-1.3.3-py2.py3-none-any.whl包使用同样的方式安装，只是应该等到其所有依赖的包安装完成后才能进行安装，现在还不能安装  
 4、scrapy依赖lxml包，需要先安装lxml包，lxml包依赖libxml2，libxml2-devel，所以安装lxmllibxml2， libxml2-devel。幸运的是之前我之前已经安装过lxml  
 5、所有准备工作做完，终于可以安装scrapy包了，进入Scrapy-1.3.3-py2.py3-none-any.whl所在的目录  
