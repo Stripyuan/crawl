@@ -4,7 +4,7 @@
 安装python环境  
 ------
 1.下载Python for windows
-废话不说，直接上网址：https://www.python.org/ftp/python/3.5.1/python-3.5.1.exe  
+废话不说，[直接上网址](https://www.python.org/ftp/python/3.5.1/python-3.5.1.exe) 
 2.安装Python for windows（不得不说Python 在 Windows平台下的安装比傻瓜式还傻瓜式，直接点击Install Now，Python就直接被装到你的C盘了。）  
 
 安装scrapy 
